@@ -22,7 +22,7 @@ jobs:
         run: |
           aws ec2 run-instances \
             --image-id ami-007f35e81392786a4 \
-            --instance-type t3.micro \
+            --instance-type t2.micro \
             --key-name hp \
             --security-groups default \
             --count 1 \
